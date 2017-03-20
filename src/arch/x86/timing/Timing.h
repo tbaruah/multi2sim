@@ -143,6 +143,9 @@ public:
 	/// Fast forward instructions set up by the user
 	void FastForward();
 
+	///OpenCL Fast Forward
+	void FastForwardOpenCL();
+
 	/// Run one iteration of the cpu timing simuation.
 	/// \return This function \c true if the iteration had a useful
 	/// timing simulation, and \c false if all timing simulation finished
